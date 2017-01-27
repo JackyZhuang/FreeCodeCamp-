@@ -1,0 +1,16 @@
+字号是由样式属性font-size来控制的, 如下：
+
+    h1 {
+      font-size: 30px;
+    }
+    
+    <style>
+  .red-text {
+    color: red;
+    font-size: 16px;
+  }
+</style>
+
+<h2 class="red-text">我家的猫咪</h2>
+<p class="red-text"></p>
+<p style="font-size: 16px;"></p>
