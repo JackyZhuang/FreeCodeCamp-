@@ -1,0 +1,19 @@
+我们先声明一个类选择器：
+
+    <style>
+      .blue-text {
+        color: blue;
+      }
+    </style>
+
+上面的代码在 <style> 标记中声明了一个叫做 blue-text 的类样式。
+
+然后在h2元素上应用我们声明的类选择器：
+
+<h2 class="blue-text">CatPhotoApp</h2>
+
+注意：在CSS中，类选择器应该添加.为前缀。
+
+而在HTML中，class属性不能添加.为前缀。
+
+这是因为在CSS中如果类选择器前不添加. 浏览器就会误认为类选择器是一个元素选择器。
